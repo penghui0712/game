@@ -1,0 +1,374 @@
+*{margin:0;padding:0;}
+html,body{
+	width:100%;
+	height:100%;
+	font-family:Verdana;  
+    background-color: #fafafa;
+}
+body{
+	display: -webkit-box;
+	-webkit-box-orient:vertical;
+	}
+header{
+	width:100%;
+	height:64px;
+	line-height: 64px;
+	margin:0 auto;
+	background:#fff;
+	position:relative;
+	font-size: 20px;   
+    font-weight: 400;
+    border-left:1px solid #ccc;	
+    border-right:1px solid #ccc;		   
+    display: -webkit-box;
+	-webkit-box-orient:horizontal;
+	overflow: hidden;
+}
+header div{
+	width:150px;
+	height:36px;
+	background:url(../img/nav-logo.png) center center no-repeat;
+	background-size:auto 32px;
+	margin:14px 10px;
+	cursor: pointer;
+	transition:all 1s linear;	
+}
+header div:hover{
+	background:url(../img/nav-logo.png) center center no-repeat pink;
+	background-size:auto 32px;
+	margin:14px 10px;
+	border-radius:4px;
+}
+header a{
+	display:inline-block;
+	width:88px;
+	height:36px;
+	line-height: 36px;
+	text-align: center;
+	background:#fff;
+	text-decoration: none;
+    font-size: 12px;
+    font-weight: bolder;
+    color:#000;
+    margin:14px 5px;
+    cursor: pointer;
+    transition:all 1s linear;
+}
+header a:hover{
+	background:pink;
+	border-radius:4px;
+}
+header span{
+	display:block;
+	-webkit-box-flex:1;	
+}
+header p{
+	width:40px;
+	height:40px;
+	line-height:40px;
+	text-align: center;
+    position:relative;
+}
+.a{margin:10px 8px 0 0;cursor: pointer;}
+.b{margin:10px 17px 0 0;cursor: pointer;}
+.y{margin:10px 16px 0 0;cursor: pointer;display:none;}
+
+.a em{
+	display:inline-block;
+	width:100px;
+	height:20px;
+	line-height: 20px;
+	border-radius: 3px;
+	font-size:12px;
+	background:#000;
+	opacity:0;
+	color:#fff;
+	position:absolute;
+	top:40px;
+	left:-30px;
+	z-index: 2;	
+	transition:all 0.2s linear;	
+}
+.b em{
+	display:inline-block;
+	width:95px;
+	height:20px;
+	line-height: 20px;
+	border-radius: 3px;
+	font-size:12px;
+	background:#000;
+	opacity:0;
+	color:#fff;
+	position:absolute;
+	top:40px;
+	left:-20px;
+	z-index: 2;
+	transition:all 0.2s linear;
+}
+.a:hover em{
+	opacity:1;	
+}
+.b:hover em{
+	opacity:1;
+}
+section{
+	width:100%;
+	margin:0 auto;
+	border-left:1px solid #ccc;	
+    border-right:1px solid #ccc;
+    overflow: hidden;
+}
+.ta-section{
+	width:100%;
+	position: relative;;
+}
+.ima{
+	display:none;
+}
+.imag{
+	display:none;
+}
+.t-section{
+	width:100%;
+	height:100%;
+	position:absolute;
+	left:0;
+	top:0;
+	display: -webkit-box;
+	-webkit-box-orient:horizontal;
+}
+.t-section span{
+	display:inline-block;
+	width:17px;
+	height:100%;
+	background:#fff;
+}
+.ban{
+	-webkit-box-flex:2;
+	height:100%;
+	background:url(../img/1.png) no-repeat;
+	background-size:100% 100%;
+}
+.ban1{
+	-webkit-box-flex:2;
+	height:100%;
+	background:url(../img/2.png) no-repeat;
+	background-size:100% 100%;
+}
+.bann{
+	-webkit-box-flex:1;	
+	height:100%;
+	background:#252525;
+	display: -webkit-box;
+	-webkit-box-orient:vertical;
+
+}
+.c{
+	width:80%;
+	height:20%;
+	margin:0 auto;
+}
+.banne{
+	width:80%;
+	height:80%;
+	background:url(../img/graphic-starwars-logo.png) no-repeat center top;
+	background-size:80% auto;
+	margin:0 auto;
+}
+.e{
+	width:100%;
+	height:17px;
+	margin:0 auto;
+	background:#fff;
+}
+.c-section{
+	width:100%;
+	height:100%;
+	display: -webkit-box;
+	-webkit-box-orient:horizontal;
+	position:relative;
+}
+.sea{
+	display:none;
+}
+.sec{
+	width:100%;
+	height:100%;
+	position:absolute;
+	left:0;
+	top:0;
+	display: -webkit-box;
+	-webkit-box-orient:horizontal;
+}
+.rand{
+	-webkit-box-flex:1;	
+	height:100%;
+	background:#252525;
+	display: -webkit-box;
+	-webkit-box-orient:vertical;
+}
+.d{
+	width:80%;
+	height:30%;
+	margin:0 auto;
+}
+.randa{
+	width:80%;
+	height:70%;
+	background:url(../img/graphic-forceband-logo.png) no-repeat center top;
+	background-size:80% auto;
+	margin:0 auto;
+}
+.c-section span{
+	display:inline-block;
+	width:17px;
+	height:100%;
+	background:#fff;
+}
+.sun{
+	-webkit-box-flex:2;
+	height:100%;
+	background:url(../img/7.JPG) no-repeat;
+	background-size:100% 100%;
+}
+.bo-section{
+	display:none;
+}
+.boo-section{
+	display:none;
+}
+.b-section{
+	width:100%;
+	height:100%;
+	position: relative;
+}
+.bo-se{
+	width:100%;
+	height:100%;
+	position:absolute;
+	left:0;
+	top:0;
+	display: -webkit-box;
+	-webkit-box-orient:horizontal;
+}
+.m{
+	-webkit-box-flex:1;
+	height:100%;
+	background:url(../img/graphic-tile-sphero.jpg) no-repeat;
+	background-size:100% 100%;
+}
+.n{
+	-webkit-box-flex:1;
+	height:100%;
+	background:url(../img/graphic-tile-sprk-plus.jpg) no-repeat;
+	background-size:100% 100%;
+}
+.k{
+	-webkit-box-flex:1;
+	height:100%;
+	background:url(../img/graphic-tile-blog.jpg) no-repeat;
+	background-size:100% 100%;
+}
+.f{
+	width:17px;
+	height:100%;
+	background:#fff;
+}
+.j{
+	width:17px;
+	height:100%;
+	background:#fff;
+}
+footer{
+	width:100%;
+	height:590px;
+	margin:0 auto;
+	background:#9DA6AE;
+	color: #fff;
+	border-left:1px solid #ccc;	
+    border-right:1px solid #ccc;
+    overflow: hidden;
+}
+.foot{
+	width:87%;
+	height:470px;
+	padding: 80px 80px 40px;
+}
+.primary{
+	width:100%;
+	height:328px;
+}
+.pri{
+	width:100%;
+	height:328px;
+	display: -webkit-box;
+	-webkit-box-orient:horizontal;
+}
+.na{
+	width:25%;
+	height:328px;
+	cursor: pointer;
+}
+
+.na p{
+	opacity: 0.5;
+    padding-bottom: 6px;
+    border-bottom: 2px solid rgba(255,255,255,0.2);
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin:16px 0;
+    cursor: pointer;
+}
+
+.na a{
+	color: #fff;
+    text-decoration: none;
+    display: block;
+    text-transform: capitalize;
+    opacity: 0.2;
+    line-height:22px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+    
+}
+
+.lang{
+	width:100%;
+	height:29px;
+	padding-top: 16px;
+	margin-top: 40px;
+	border-top: 1px solid rgba(255,255,255,0.2);
+}
+.lang a{
+	color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px 5px 5px 0;
+    cursor: pointer;
+    font-size: 12px;
+}
+.copyright{
+	width:100%;
+	height:40px;
+	padding-top: 20px;
+}
+.lef{
+	font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    float:left;
+}
+.righ a{
+	display:inline-block;
+	font-weight: 600;
+    font-size: 15px;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    line-height: 20px;
+    float:right;
+}
+
